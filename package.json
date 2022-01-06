@@ -1,0 +1,29 @@
+{
+  "name": "example-typescript-eslint-prettier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "debug": "npm start -- --inspect",
+    "debug:brk": "npm start -- --inspect-brk",
+    "test": "jest",
+    "test:debug": "node --inspect node_modules/.bin/jest --runInBand --runInBand",
+    "test:debug:windows": "node --inspect ./node_modules/jest/bin/jest.js --runInBand --runInBand"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "@typescript-eslint/eslint-plugin": "^5.5.0",
+    "@typescript-eslint/parser": "^5.5.0",
+    "eslint": "^8.3.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.4.4",
+    "prettier": "^2.5.0",
+    "ts-jest": "^27.1.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  }
+}
