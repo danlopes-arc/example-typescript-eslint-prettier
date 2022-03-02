@@ -15,7 +15,7 @@ module.exports = {
     node: true,
     jest: true,
   },
-  ignorePatterns: ['.eslintrc.js', 'jest.config.js'],
+  ignorePatterns: ['.eslintrc.js', 'jest.config.js', '.eslintrc*.js'],
   rules: {
     'prettier/prettier': ['warn', {
       'singleQuote': true,
