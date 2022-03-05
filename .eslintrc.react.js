@@ -30,7 +30,7 @@ module.exports = {
       'endOfLine': 'auto',
       'printWidth': 100
     }],
-    '@typescript-eslint/explicit-function-return-type': 'error',
+    // '@typescript-eslint/explicit-function-return-type': 'error',
     '@typescript-eslint/no-explicit-any': 'error',
     '@typescript-eslint/ban-types': 'warn',
     'react/react-in-jsx-scope': 'off',
